@@ -92,6 +92,7 @@ img {
   text-decoration: none;
 }
 .header-it-link {
+  position: relative;
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
@@ -117,6 +118,20 @@ img {
   color: var(--akcent-color-text);
   cursor: pointer;
 }
+
+#currentlink::after {
+  position: absolute;
+  bottom: -1px;
+  left: 0px;
+
+  content: "";
+  display: block;
+  width: 100%;
+  height: 4px;
+  background-color: var(--akcent-color-text);
+  border-radius: 2px;
+}
+
 .header-mail:hover,
 .header-tel:focus,
 .header-mail:focus,
