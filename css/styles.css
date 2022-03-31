@@ -97,6 +97,8 @@ img {
   padding-top: 32px;
   padding-bottom: 32px;
   color: var(--primary-light-text);
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .nav-contacts {
   display: flex;
@@ -110,6 +112,8 @@ img {
 .header-mail,
 .header-tel {
   color: var(--secondary-light-text);
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-it-link:hover,
@@ -204,6 +208,8 @@ img {
   letter-spacing: 0.06em;
   color: var(--primary-dark-text);
   background-color: var(--akcent-color-text);
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .hero-btn:hover,
 .hero-btn:focus {
@@ -350,10 +356,15 @@ img {
   width: 44px;
   height: 44px;
   border-radius: 50%;
+  background-color: #ffffff;
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-sonet-icon {
   fill: #afb1b8;
+
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .team-it-link:hover .team-sonet-icon {
   fill: var(--primary-dark-text);
@@ -390,9 +401,13 @@ img {
   height: 92px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
+
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .client-logo {
   fill: #afb1b8;
+
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .client-it-link:hover .client-logo {
   fill: var(--akcent-color-text);
@@ -440,6 +455,8 @@ address {
   line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-mail:hover,
 .footer-tel:hover,
@@ -484,7 +501,9 @@ address {
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  background: rgba(255, 255, 255, 0.1);
+  background-color: rgba(255, 255, 255, 0.1);
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-twitter,
 .footer-facebook,
@@ -495,6 +514,7 @@ address {
 .link-sg:hover {
   background-color: var(--akcent-color-text);
 }
+
 .link-sg:hover .footer-solinks {
   fill: var(--primary-dark-text);
 }
@@ -521,6 +541,12 @@ address {
   letter-spacing: 0.03em;
   color: var(--primary-light-text);
   background-color: var(--primary-grey-bg);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0), 0px 1px 2px rgba(0, 0, 0, 0),
+    0px 2px 2px rgba(0, 0, 0, 0);
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-btn {
   margin-right: 8px;
@@ -587,6 +613,10 @@ address {
 }
 .portfolio-link {
   display: block;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0), 0px 4px 4px rgba(0, 0, 0, 0),
+    1px 4px 6px rgba(0, 0, 0, 0);
+
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-link:hover,
 .portfolio-link:focus {
