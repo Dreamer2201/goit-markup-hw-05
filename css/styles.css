@@ -153,6 +153,8 @@ img {
 .header-tel-icon {
   margin-right: 10px;
   fill: var(--secondary-light-text);
+
+  transition: fill var(--animation-function);
 }
 .header-email-icon:hover,
 .header-email-icon:focus,
